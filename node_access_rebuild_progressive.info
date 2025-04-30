@@ -2,5 +2,6 @@ name = Node Access Rebuild Progressive
 description = "Rebuild node access grants in chunks."
 backdrop = 1.x
 type = module
+maintainers[bugfolder] = Robert J. Lang
 
 configure = admin/config/development/node-access-rebuild-progressive

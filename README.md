@@ -33,6 +33,10 @@ You can also use drush if you have a Backdrop-compatible version of drush instal
 
 `drush node-access-rebuild-progressive`
 
+## Similar Modules
+
+The [Content Access](https://backdropcms.org/project/content_access) module now provides background rebuild of permissions; if you have that module installed and all you want is background permission rebuild, you don't need this module. You can still use this module to "rebuild now" using the `bee narp` command. Other access modules (e.g., [Taxonomy Access Control](https://backdropcms.org/project/taxonomy_access) don't provide background permissions rebuild, so can still benefit from this module's functionality.
+
 ## Installation
 
 Install this module using [the official Backdrop CMS instructions](https://backdropcms.org/guide/modules).
